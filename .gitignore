@@ -1,0 +1,31 @@
+# Віртуальне середовище
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+staticfiles/
+media/
+
+# Секрети
+.env
+.env.*
+
+# Тести і покриття
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Редактори та ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
